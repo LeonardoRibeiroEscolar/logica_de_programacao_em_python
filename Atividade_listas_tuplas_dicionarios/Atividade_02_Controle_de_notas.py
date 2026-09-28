@@ -5,15 +5,28 @@ print(notas)
 #3. Calcular a soma das notas.
 soma = 0
 soma = soma + notas
+print(f"Soma das notas: {soma}")
 #4. Calcular a média das notas.
 media = soma / len(notas)
+print(f"Media das notas: {media}")
 #5. Identificar a maior nota.
 notamaior = 0
-nota = 0
-for i in notas:
-    if notamaior > nota:
-        notamaior = nota
+
+notamaior = max(nota)
+print(f"Nota maior: {notamaior})
 #6. Identificar a menor nota.
-#7. Verificar se existe uma nota igual a 10.
+notamenor = 0
+
+notamenor = min(nota)
+print(f"Notamenor: {notamenor}")
+#7. Verificar se existe uma nota igual a 10...
+
+if nota == 10:
+    print("Há notas iguais a 10")
 #8. Informar se o estudante foi aprovado ou reprovado.
 #9. Considerar média igual ou superior a 7 como aprovação.
+
+if nota >=  7 :
+    print("Aluno aprovado")
+else:
+    print("Aluno reprovado")
