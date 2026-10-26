@@ -15,5 +15,5 @@ cachorro1 = Cachorro("Rex" , "Bulldog", "4")
 cachorro2 = Cachorro("Totó", "Pitbull", "5")
 print(cachorro1.latir())
 print(cachorro1.mostrar_info())
-print(cachorro2.latir())
+print(cachorro2.latir()) ""
 print(cachorro2.mostrar_info())
